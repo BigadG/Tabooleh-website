@@ -70,16 +70,34 @@ body {
     top: 0;
     background-color: #fe2825;
     padding-top: 5px;
+    z-index: 1;
 }
 
 .stars {
     font-size: 30px;
 }
 
-.down-arrow {
+@-webkit-keyframes bounce {
+    0% {
+    transform: translate(0px, 0px);
+    }
+
+    25%{
+    transform: translate(0px, 10px); 
+    }
+
+    100% {
+    transform: translate(0px, 0px);
+    }
+}
+
+.bounce {
     font-size: 50px;
     background-color: transparent;
     border: none;
+    text-decoration: none;
+    color: black;
+    -webkit-animation: bounce 0.75s infinite;
 }
 
 .logo {
@@ -100,7 +118,6 @@ body {
     border-radius: 20px;
     padding: 5vw;
     gap: 3vh;
-    text-align: center;
 }
 
 .our-menus {
@@ -129,4 +146,10 @@ body {
 .view-menu {
     background-color: transparent;
     font-family: 'Lugrasimo', cursive;
+    border-color: #222;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
