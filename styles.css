@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+    background-color: #fffff4;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lugrasimo', cursive;
+}
+
+.red-background {
+    background-color: #fe2825;
+    width: calc(100vw - 45px);
+    height: calc(100vh - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    overflow: scroll;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.menu {
+    border-color: #222;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mid-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.address-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    color: #222;
+    margin: 10px;
+}
+
+.black-border {
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 3px;
+}
+
+.sticky-sect {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color: #fe2825;
+    padding-top: 0px;
+}
+
+.diamond {
+    font-size: 30px;
+}
+
+.down-arrow {
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.logo {
+    width: 800px;
+    margin: 8vh;
+    margin-right: 7vw;
+}
